@@ -116,7 +116,7 @@ export default function EvalPanel() {
                    fontWeight:700, fontSize:'0.9rem', display:'flex', alignItems:'center',
                    justifyContent:'center', gap:8, opacity:running?0.7:1 }}>
           <Play size={14} fill="#0a0a0b" />
-          {running ? 'Running... (Ollama is thinking)' : 'Run Evaluation'}
+          {running ? 'Running... (this may take a minute)' : 'Run Evaluation'}
         </motion.button>
       </div>
 
